@@ -1,121 +1,70 @@
-# Poole
+# Artists Theme
 
-*The Strange Case of Dr. Jekyll and Mr. Hyde* tells the story of a lawyer investigating the connection of two persons, Dr. Henry Jekyll and Mr. Edward Hyde. Chief among the novel's supporting cast is a man by the name of Mr. Poole, Dr. Jekyll's loyal butler.
+This site is being built on YouTube, one week at a time. See all the videos up to date here: [How to build a professional website from start to finish](https://www.youtube.com/playlist?list=PLqGj3iMvMa4KQZUkRjfwMmTq_f1fbxerI)
 
------
+Subscribe to [the channel](https://www.youtube.com/user/DevTipsForDesigners) to follow along as we develop this project step by step from the beginning.
 
-Poole is the butler for [Jekyll](http://jekyllrb.com), the static site generator. It's designed and developed by [@mdo](https://twitter.com/mdo) to provide a clear and concise foundational setup for any Jekyll site. It does so by furnishing a full vanilla Jekyll install with example templates, pages, posts, and styles.
+## How to install/use
 
-![Poole](https://f.cloud.github.com/assets/98681/1834359/71ae4048-73db-11e3-9a3c-df38eb170537.png)
+In order to get this super fantastic [Jekyll](http://jekyllrb.com) powered template for Artists follow this simple step:
 
-See Poole in action with [the demo site](http://demo.getpoole.com).
+* If you haven't got ruby installed on your computer, install it.
+* Then run in your terminal `$ gem install jekyll`
+* Move/`cd` to a folder, always in your terminal, in which you want to insert the *Artists-Theme*
+* Run `git clone https://github.com/DevTips/Artists-Theme.git`
+* Then `cd Artists-Theme`
+* `jekyll serve --watch`
+* **DONE**
 
-There are currently two official themes built on Poole:
+Isn't it fantastic?
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
-
-Individual theme feedback and bug reports should be submitted to the theme's individual repository.
-
-
-## Contents
-
-- [Usage](#usage)
-- [Options](#options)
-  - [Rems, `font-size`, and scaling](#rems-font-size-and-scaling)
-- [Development](#development)
-- [Author](#author)
-- [License](#license)
+Learn how to [use Jekyll on windows](http://jekyll-windows.juthilo.com/) (if that's your thing :)
 
 
-## Usage
 
-### 1. Install dependencies
+## Credits
 
-Poole is built on Jekyll and uses its built-in SCSS compiler to generate our CSS. Before getting started, you'll need to install the Jekyll gem:
+_Code contributions via pull request:_
+- [Riccardo Pasianotto](http://rkpasia.github.io)
+- [cust0dian](https://github.com/cust0dian)
+- [Dylan Spicker](https://github.com/ZDesign)
+- [arielsafari](https://github.com/arielsafari)
+- [bzerangue](https://github.com/bzerangue)
+- [Brian Guerrero](https://github.com/brian-guerrero)
+- [Vipul Bansal](https://github.com/vipsyvipul)
+- [iiSa3](https://github.com/iiSa3)
+- [Killua13](https://github.com/Killua13)
+- [iMoritz](https://github.com/iMoritz)
+- [jgrimshaw](https://github.com/jgrimshaw)
+- [boodaah](https://github.com/boodaah)
+- [Vadzim](https://github.com/meecrobe)
+- [Eric Ellenbrook](https://github.com/ellenbrook)
+- [rodrigofuentes](https://github.com/rodrigofuentes)
+- [Jonathan](https://github.com/foohyfooh)
+- [George](https://github.com/g3org3)
+- [Anders Thuesen](https://github.com/ande765a)
+- [beRoberto](https://github.com/beRoberto)
+- [Sven Kube](https://github.com/SvenKube)
 
-```bash
-$ gem install jekyll
-```
-
-**Windows users:** Windows users have a bit more work to do, but luckily [@juthilo](https://github.com/juthilo) has your back with his [Run Jekyll on Windows](https://github.com/juthilo/run-jekyll-on-windows) guide.
-
-**Need syntax highlighting?** Poole includes support for Pygments or Rouge, so install your gem of choice to make use of the built-in styling. Read more about this [in the Jekyll docs](http://jekyllrb.com/docs/templates/#code_snippet_highlighting).
-
-### 2a. Quick start
-
-To help anyone with any level of familiarity with Jekyll quickly get started, Poole includes everything you need for a basic Jekyll site. To that end, just download Poole and start up Jekyll.
-
-### 2b. Roll your own Jekyll site
-
-Folks wishing to use Jekyll's templates and styles can do so with a little bit of manual labor. Download Poole and then copy what you need (likely `_layouts/`, `*.html` files, `atom.xml` for RSS, and `public/` for CSS, JS, etc.).
-
-### 3. Running locally
-
-To see your Jekyll site with Poole applied, start a Jekyll server. In Terminal, from `/poole` (or whatever your Jekyll site's root directory is named):
-
-```bash
-$ jekyll serve
-```
-
-Open <http://localhost:4000> in your browser, and voilà.
-
-### 4. Serving it up
-
-If you host your code on GitHub, you can use [GitHub Pages](https://pages.github.com) to host your project.
-
-1. Fork this repo and switch to the `gh-pages` branch.
-  1. If you're [using a custom domain name](https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages), modify the `CNAME` file to point to your new domain.
-  2. If you're not using a custom domain name, **modify the `baseurl` in `_config.yml`** to point to your GitHub Pages URL. Example: for a repo at `github.com/username/poole`, use `http://username.github.io/poole/`. **Be sure to include the trailing slash.**
-3. Done! Head to your GitHub Pages URL or custom domain.
-
-No matter your production or hosting setup, be sure to verify the `baseurl` option file and `CNAME` settings. Not applying this correctly can mean broken styles on your site.
-
-## Options
-
-Poole includes some customizable options, typically applied via classes on the `<body>` element.
+_A big thank you to these creators for contributing sample projects for the "work" section:_
+- [Micael Butial](https://www.behance.net/gallery/14751131/-TYPO-International-Design-Talks)
+- [Petras Nargėla](https://www.behance.net/gallery/16750837/Free-80-Crispy-Icons-in-PSD-AI-SVG-Webfont)
+- [Sergey Valiukh](https://www.behance.net/gallery/13745729/Timeline-Page)
+- [Ayoub Elred](https://www.behance.net/gallery/15812143/Flat-Mobile-UIUX-Concept-download)
+- [Anton Skvortsov](https://www.behance.net/gallery/16483395/City-IN-website-concept)
+- [Nick Zoutendijk](https://www.behance.net/gallery/13870569/Stripes-Co-Free-icon-Set)
+- [Jonathan Quintin](https://www.behance.net/gallery/12748107/Weather-Dashboard-Global-Outlook-UIUX)
+- [Jieyu Xiong](https://www.behance.net/gallery/15063575/Fresh-It-Up-App-Design)
 
 
-### Rems, `font-size`, and scaling
-
-Poole is built almost entirely with `rem`s (instead of pixels). `rem`s are like `em`s, but instead of building on the immediate parent's `font-size`, they build on the root element, `<html>`.
-
-By default, we use the following:
-
-```css
-html {
-  font-size: 16px;
-  line-height: 1.5;
-}
-@media (min-width: 38em) {
-  html {
-    font-size: 20px;
-  }
-}
-
-```
-
-To easily scale your site's typography and components, simply customize the base `font-size`s here.
+![The Design](/assets/img/the_design.jpg)
 
 
-## Development
-
-Poole has two branches, but only one is used for active development.
-
-- `master` for development.  **All pull requests should be to submitted against `master`.**
-- `gh-pages` for our hosted site, which includes our analytics tracking code. **Please avoid using this branch.**
-
-CSS is handled via Jeykll's built-in Sass compiler. Source Sass files are located in `_sass/`, included into `styles.scss`, and compile to `styles.css`.
-
-## Author
-
-**Mark Otto**
-- <https://github.com/mdo>
-- <https://twitter.com/mdo>
+_Artist Themes in the wild:_
+- [limestudios](http://limestudios.net/)
 
 
-## License
+---
 
-Open sourced under the [MIT license](LICENSE.md).
 
-<3
+This is a free Jekyll Theme that is currently being developed in weekly episodes on the [DevTips YouTube channel](http://youtube.com/devtipsfordesigners).

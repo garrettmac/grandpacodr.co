@@ -1,30 +1,13 @@
-# Permalinks
-permalink:           pretty
+# Build settings
 
-# Setup
-title:               Poole
-tagline:             The Jekyll Butler
-url:                 http://getpoole.com
-paginate:            1
-baseurl:             ""
+markdown: kramdown
+permalink: pretty
 
-# Assets
-#
-# We specify the directory for Jekyll so we can use @imports.
+port: 8000
+
+include: ['_includes/work']
+exclude: ['the_design.psd']
+
 sass:
-  sass_dir:          _sass
-  style:            :compressed
-
-# About/contact
-author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
-
-# Custom vars
-version:             2.0.0
-github:
-  repo:              https://github.com/poole/poole
-
-# Gems
-gems:                [jekyll-paginate,jekyll-gist]
+  sass_dir: assets/css
+  style: :nested
