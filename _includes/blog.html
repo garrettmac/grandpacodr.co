@@ -1,0 +1,17 @@
+<section class="section-contact">
+
+  <h3 id="contact">Blog Posts</h3>
+
+
+  <div class="social-links">
+    {% for link in site.data.settings.posts %}
+
+    <a href="{{ link.link }}" >{{link.name}}</a>
+    {% endfor %}
+  </div>
+
+  <hr class="bar">
+
+  <!-- <a class="biglink" href="mailto:{{ site.data.settings.email }}">{{ site.data.settings.email }}</a> -->
+
+</section>

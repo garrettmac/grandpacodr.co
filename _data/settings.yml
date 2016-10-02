@@ -71,6 +71,10 @@ projects:
 - {name: Stripes & Co, folder: 'proj-8', file: 'work/proj-8.html'}
 
 
+posts:
+  - {name: post one, folder: 'post-1', file: 'blog/post-1.html'}
+
+
 
 
 #-------------------------------
