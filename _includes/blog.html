@@ -7,6 +7,13 @@
     {% for link in site.data.settings.posts %}
 
     <a href="{{ link.link }}" >{{link.name}}</a>
+    <a href="{{ link.link }}" >{{link}}</a>
+    {% endfor %}
+  </div>
+  <div class="social-links">
+    {% for link in site.data.settings.blog %}
+
+    <a href="{{ link.link }}" >{{link}}</a>
     {% endfor %}
   </div>
 
