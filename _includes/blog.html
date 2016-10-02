@@ -3,19 +3,27 @@
   <h3 id="contact">Blog Posts</h3>
 
 
-  <div class="social-links">
+  <!-- <div class="social-links"> -->
+    <p>
     {% for link in site.data.settings.posts %}
 
-    <a href="{{ link.link }}" >{{link.name}}</a>
-    <a href="{{ link.link }}" >{{link}}</a>
-    {% endfor %}
-  </div>
-  <div class="social-links">
-    {% for link in site.data.settings.blog %}
 
+    <!-- <a href="{{ link.link }}" >{{link.name}}</a> -->
     <a href="{{ link.link }}" >{{link}}</a>
     {% endfor %}
-  </div>
+  </p>
+  <!-- </div> -->
+  <hr class="bar">
+  <!-- <div class="social-links"> -->
+  <p>
+  {% for link in site.data.settings.blog %}
+
+
+  <!-- <a href="{{ link.link }}" >{{link.name}}</a> -->
+  <a href="{{ link.link }}" >{{link}}</a>
+  {% endfor %}
+</p>
+  <!-- </div> -->
 
   <hr class="bar">
 
