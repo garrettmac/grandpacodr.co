@@ -1,18 +1,3 @@
-<<<<<<< HEAD
-# Build settings
-
-markdown: kramdown
-permalink: pretty
-
-port: 8000
-
-include: ['_includes/work','_includes/blog']
-exclude: ['the_design.psd']
-
-sass:
-  sass_dir: assets/css
-  style: :nested
-=======
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your entire site, values
@@ -22,13 +7,13 @@ sass:
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Minimal Mistakes"
+title                    : "Grandpa Codr"
 title_separator          : "-"
-name                     : &name "Michael Rose"
-description              : &description "A flexible Jekyll theme for your blog or site with a minimalist aesthetic."
-url                      : https://mmistakes.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "/minimal-mistakes" # the subpath of your site, e.g. "/blog"
-repository               : "mmistakes/minimal-mistakes"
+name                     : &name "Garrett Mac"
+description              : &description "Welcome To My developers Blog"
+url                      : https://garrettmac.github.io # the base hostname & protocol for your site e.g. "https://garrettmac.github.io"
+baseurl                  : "/grandpacodr.co" # the subpath of your site, e.g. "/blog"
+repository               : "garrettmac/grandpacodr.co"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -70,7 +55,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter "mmistakes"
+  username               : &twitter "garrettmac"
 facebook:
   username               : &facebook "michaelrose"
   app_id                 :
@@ -82,7 +67,7 @@ social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
-    - "https://twitter.com/mmistakes"
+    - "https://twitter.com/garrettmac"
     - "https://facebook.com/michaelrose"
 
 # Analytics
@@ -106,10 +91,10 @@ author:
   flickr           :
   facebook         : *facebook
   foursquare       :
-  github           : "mmistakes"
+  github           : "garrettmac"
   google_plus      :
   keybase          :
-  instagram        : "mmistakes"
+  instagram        : "garrettmac"
   lastfm           :
   linkedin         :
   pinterest        :
@@ -320,4 +305,3 @@ compress_html:
   clippings: all
   ignore:
     envs: development
->>>>>>> disqus-blog

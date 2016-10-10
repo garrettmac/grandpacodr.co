@@ -41,7 +41,7 @@ You also have the option of customizing the separation character used in SEO-fri
 
 Used to assign a site author. Don't worry, you can override the site author with different ones on specific posts, pages, or collection documents.
 
-*Example:* `name: "Michael Rose"`.
+*Example:* `name: "Garrett Mac"`.
 
 **ProTip:** If you want to get crafty with your YAML you can use [anchors](http://www.yaml.org/spec/1.2/spec.html#id2785586) to reuse values. For example `foo: &var "My String"` allows you to reuse `"My String"` elsewhere in `_config.yml` like so... `bar: *var`. You'll see a few examples of this in the provided Jekyll config.
 {: .notice--info}
@@ -54,7 +54,7 @@ Fairly obvious. `site.description` describes the site. Used predominantly in met
 
 ### Site URL
 
-The base hostname and protocol for your site. If you're hosting with GitHub Pages this will be something like `url: "https://github.io.mmistakes"` or `url: "https://mademistakes.com"` if you have a custom domain name.
+The base hostname and protocol for your site. If you're hosting with GitHub Pages this will be something like `url: "https://github.io.garrettmac"` or `url: "https://mademistakes.com"` if you have a custom domain name.
 
 **Note:** It's important to remember that when testing locally you need to change the `site.url`, I recommend `url: "http://localhost:4000"` to keep paths pointing to local pages and assets. Ideally you'd use [multiple config files](https://mademistakes.com/articles/using-jekyll-2016/#environments-and-configurations) with `bundle exec jekyll serve --config _config.yml,_config.dev.yml` to apply development overrides.
 {: .notice--warning}
@@ -66,7 +66,7 @@ The base hostname and protocol for your site. If you're hosting with GitHub Page
 
 This little option causes all kinds of confusion in the Jekyll community. If you're not hosting your site as a GitHub Pages Project or in a subfolder (eg: `/blog`), then don't mess with it.
 
-In the case of the Minimal Mistakes demo site it's hosted on GitHub at <https://mmistakes.github.io/minimal-mistakes>. To correctly set this base path I'd use `url: "https://mmistakes.github.io"` and `baseurl: "/minimal-mistakes"`.
+In the case of the Minimal Mistakes demo site it's hosted on GitHub at <https://garrettmac.github.io/minimal-mistakes>. To correctly set this base path I'd use `url: "https://garrettmac.github.io"` and `baseurl: "/minimal-mistakes"`.
 
 For more information on how to properly use `site.url` and `site.baseurl` as intended by the Jekyll maintainers, check [Parker Moore's post on the subject](https://byparker.com/blog/2014/clearing-up-confusion-around-baseurl/).
 
@@ -81,7 +81,7 @@ Add your repository name with organization to your site's configuration file, `_
 repository: "username/repo-name"
 ```
 
-"NWO" stands for "name with owner." It is GitHub lingo for the username of the owner of the repository plus a forward slash plus the name of the repository, e.g. '**mmistakes/minimal-mistakes**', where '**mmistakes**' is the owner and **'minimal-mistakes**' is the repository name.
+"NWO" stands for "name with owner." It is GitHub lingo for the username of the owner of the repository plus a forward slash plus the name of the repository, e.g. '**garrettmac/minimal-mistakes**', where '**garrettmac**' is the owner and **'minimal-mistakes**' is the repository name.
 
 Your `site.github.*` fields should fill in like normal. If you run Jekyll with the --verbose flag, you should be able to see all the API calls made.
 
@@ -329,14 +329,14 @@ To improve the appearance of links shared from your site to social networks like
 
 Twitter username for the site. For pages that have custom author Twitter accounts assigned in their YAML Front Matter or data file, they will be attributed as a **creator** in the Twitter Card. 
 
-For example if my site's Twitter account is `@mmistakes-theme` I would add the following to `_config.yml`
+For example if my site's Twitter account is `@garrettmac-theme` I would add the following to `_config.yml`
 
 ```yaml
 twitter:
-  username: "mmistakes-theme"
+  username: "garrettmac-theme"
 ```
 
-And if I assign `@mmistakes` as an author account it will appear in the Twitter Card along with `@mmistakes-theme`, attributed as a creator of the page being shared.
+And if I assign `@garrettmac` as an author account it will appear in the Twitter Card along with `@garrettmac-theme`, attributed as a creator of the page being shared.
 
 **Note**: You need to [apply for Twitter Cards](https://dev.twitter.com/docs/cards) and validate they're working on your site before they will begin showing up.
 {: .notice--warning}

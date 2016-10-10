@@ -7,7 +7,7 @@ modified: 2016-04-13T15:05:12-04:00
 
 The MIT License (MIT)
 
-Copyright (c) {{ site.time | date: '%Y' }} Michael Rose
+Copyright (c) {{ site.time | date: '%Y' }} Garrett Mac
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

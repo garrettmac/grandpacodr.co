@@ -340,7 +340,7 @@ defaults:
 
 The theme comes pre-built with a selection of links for the most common social media networks. These are all optional and can be [assigned in `_config.yml`]({{ base_path }}/docs/configuration/).
 
-To add more links you'll need to crack open [`_includes/author-profile.html`](https://github.com/mmistakes/minimal-mistakes/blob/master/_includes/author-profile.html) and make some edits.
+To add more links you'll need to crack open [`_includes/author-profile.html`](https://github.com/garrettmac/minimal-mistakes/blob/master/_includes/author-profile.html) and make some edits.
 
 Inside of `<ul class="author__urls">` you'll find `<li>` elements wrapped in Liquid conditionals. These represent each of the possible links you can currently add to the sidebar.
 
@@ -531,7 +531,7 @@ The `single` layout has an option to enable social links at the bottom of posts 
 
 To enable these links add `share: true` to a post or page's YAML Front Matter or use a [default](https://jekyllrb.com/docs/configuration/#front-matter-defaults) in your `_config.yml` to apply more globally.
 
-If you'd like to add, remove, or change the order of these default links you can do so by editing [`_includes/social-share.html`](https://github.com/mmistakes/minimal-mistakes/blob/master/_includes/social-share.html).
+If you'd like to add, remove, or change the order of these default links you can do so by editing [`_includes/social-share.html`](https://github.com/garrettmac/minimal-mistakes/blob/master/_includes/social-share.html).
 
 Let's say you wanted to replace the Google+ button with a Reddit one. Simply replace the HTML with the following:
 
