@@ -75,7 +75,7 @@ To help me out try to avoid creating pull requests on `master` and instead branc
 
 **Garrett Mac**
 
-- <https://mademistakes.com>
+- <https://cera.io>
 - <https://twitter.com/garrettmac>
 - <https://github.com/garrettmac>
 

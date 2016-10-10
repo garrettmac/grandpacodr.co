@@ -54,9 +54,9 @@ Fairly obvious. `site.description` describes the site. Used predominantly in met
 
 ### Site URL
 
-The base hostname and protocol for your site. If you're hosting with GitHub Pages this will be something like `url: "https://github.io.garrettmac"` or `url: "https://mademistakes.com"` if you have a custom domain name.
+The base hostname and protocol for your site. If you're hosting with GitHub Pages this will be something like `url: "https://github.io.garrettmac"` or `url: "https://cera.io"` if you have a custom domain name.
 
-**Note:** It's important to remember that when testing locally you need to change the `site.url`, I recommend `url: "http://localhost:4000"` to keep paths pointing to local pages and assets. Ideally you'd use [multiple config files](https://mademistakes.com/articles/using-jekyll-2016/#environments-and-configurations) with `bundle exec jekyll serve --config _config.yml,_config.dev.yml` to apply development overrides.
+**Note:** It's important to remember that when testing locally you need to change the `site.url`, I recommend `url: "http://localhost:4000"` to keep paths pointing to local pages and assets. Ideally you'd use [multiple config files](https://cera.io/articles/using-jekyll-2016/#environments-and-configurations) with `bundle exec jekyll serve --config _config.yml,_config.dev.yml` to apply development overrides.
 {: .notice--warning}
 
 **ProTip:** To force GitHub hosted sites to [redirect http traffic to https](https://konklone.com/post/github-pages-now-sorta-supports-https-so-use-it) use a service like [Cloudflare](https://www.cloudflare.com/).
@@ -358,7 +358,7 @@ facebook:
   username: "michaelrose"  # https://www.facebook.com/michaelrose
 ```
 
-**ProTip:** To debug Open Graph data use [this tool](https://developers.facebook.com/tools/debug/og/object?q=https%3A%2F%2Fmademistakes.com) to test your pages. If content changes aren't reflected you will probably have to hit the **Fetch new scrape information** button to refresh.
+**ProTip:** To debug Open Graph data use [this tool](https://developers.facebook.com/tools/debug/og/object?q=https%3A%2F%2Fcera.io) to test your pages. If content changes aren't reflected you will probably have to hit the **Fetch new scrape information** button to refresh.
 {: .notice--info}
 
 ##### Open Graph Default Image

@@ -48,7 +48,7 @@ atom_feed:
   path                   : # blank (default) uses feed.xml
 
 # SEO Related
-google_site_verification : "UQj93ERU9zgECodaaXgVpkjrFn9UrDMEzVamacSoQ8Y"
+google_site_verification : "Ueq4DyJVmOKSxaWGg6idiAV1KhlKpRdIdJLocLL5kgc"
 bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
@@ -74,17 +74,17 @@ social:
 analytics:
   provider               : "google-universal" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          : "UA-2011187-3"
+    tracking_id          : "UA-85533203-1"
 
 
 # Site Author
 author:
   name             : *name
-  avatar           : "michael-rose.jpg"
+  avatar           : "garrett-mac.jpg"
   bio              : "Just another boring, tattooed, time traveling, designer."
   location         : "Buffalo, NY"
   email            :
-  uri              : "https://mademistakes.com"
+  uri              : "https://cera.io"
   bitbucket        :
   codepen          :
   dribbble         :
