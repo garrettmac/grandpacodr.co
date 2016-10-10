@@ -355,7 +355,7 @@ While not part a part of Open Graph, you can also add your Facebook username for
 
 ```yaml
 facebook:
-  username: "michaelrose"  # https://www.facebook.com/michaelrose
+  username: "garrettmacmac"  # https://www.facebook.com/garrettmacmac
 ```
 
 **ProTip:** To debug Open Graph data use [this tool](https://developers.facebook.com/tools/debug/og/object?q=https%3A%2F%2Fcera.io) to test your pages. If content changes aren't reflected you will probably have to hit the **Fetch new scrape information** button to refresh.
