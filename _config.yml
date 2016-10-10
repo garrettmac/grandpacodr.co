@@ -12,7 +12,7 @@ title_separator          : "-"
 name                     : &name "Garrett Mac"
 description              : &description "Welcome To My developers Blog"
 url                      : https://garrettmac.github.io # the base hostname & protocol for your site e.g. "https://garrettmac.github.io"
-baseurl                  : "/" # the subpath of your site, e.g. "/blog"
+baseurl                  : "/grandpacodr.co" # the subpath of your site, e.g. "/blog"
 repository               : "garrettmac/grandpacodr.co"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 # breadcrumbs            : false # true, false (default)
